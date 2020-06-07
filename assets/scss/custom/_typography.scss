@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@font-face {
+	font-family: 'liquido';
+	src: url('/assets/fonts/liquido/LIQUIDO-Reguar.woff2') format('woff2');
+}
 
 body {
 	font-weight: $font-weight-base;
@@ -10,9 +14,18 @@ b {
 	font-weight: 700;
 }
 
+h1 {
+	font-family: $font-family-display;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-weight: $headings-font-weight;
     color: $dark;
+}
+
+.display-2 {
+	font-size: 10rem;
+	line-height: 0.85;
 }
 
 .display-1,
@@ -22,6 +35,7 @@ h1,h2,h3,h4,h5,h6{
 .display-5,
 .display-6 {
 	font-weight: 800;
+	letter-spacing: 0.4rem;
 }
 
 @each $color,$value in $theme-colors {

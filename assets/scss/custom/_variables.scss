@@ -1,5 +1,5 @@
 $body-bg: #fff;
-$body-color: #1D1C1D;
+$body-color: #000;
 
 $font-weight-light: 300;
 $font-weight-base: 400;
@@ -19,15 +19,15 @@ $xl: 1200px;
 
 
 //Changing the theme colors
-$primary: #611F6A;
-$secondary: #071D5C;
+$primary: #ffa700;
+$secondary: #000000;
 $success: #007A5B;
 $info: #1264A4;
 $warning: #ECB22F;
 $danger: #E01E5B;
 
-$bg-primary: #4A154B;
-$bg-secondary: #091A3D;
+$bg-primary: $primary;
+$bg-secondary: $secondary;
 $bg-success: #2EB67D;
 $bg-info: #167895;
 $bg-warning: #EBB12B;
@@ -80,6 +80,7 @@ $bg-colors: map-merge((
 ), $bg-colors);
 
 //Changing the font family
+$font-family-display: "Liquido", sans-serif;
 $font-family-sans-serif: "Raleway", sans-serif;
 
 //links
